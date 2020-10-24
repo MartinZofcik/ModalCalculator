@@ -1,0 +1,51 @@
+head, body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+label{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+small{
+    display: none;
+    color: red;
+}
+
+.containerBody{
+    width: 30%;
+    margin: auto;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.btn-success{
+    margin-left: 38%;
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.closebtn{
+    margin-right: 42%;
+}
+
+.modal-title{
+    margin-left: 37%;
+}
